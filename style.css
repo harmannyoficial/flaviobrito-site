@@ -1,0 +1,210 @@
+
+
+
+
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box; 
+    color: rgb(37, 37, 37);
+    
+}   
+
+
+
+.cx1{ /*menu*/
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+header{ 
+    height:9%;
+    width: 100%;
+    background: rgb(59, 59, 59) ;
+    position: fixed ;
+}
+.link {
+    margin: 0px 0px 0px 7% ;
+    font-size: 18px;
+    color: white;
+}
+.psicologo{
+    
+    margin: 0px 0px 0px 8% ;
+    font-size: 18px;
+    color: white;
+}
+
+.whats{
+    
+     height:30px;
+     width: 30px;
+     margin-left: 20%;
+     margin-right: 20px; }
+
+a:hover {color: rgb(222, 221, 221)}
+
+
+/* container-lefth*/
+.container-lefth {
+   
+    margin: 7%;
+    width: 40%;
+    display: inline-block;
+
+}
+
+
+/* container-rigth*/
+.container-rigth { /*posição e largura da imagem*/
+    width: 45%;
+    display: inline-block;
+}
+
+/*lefth */
+h1{
+    
+    height: 140px;
+    line-height: 50px;
+    font-size: 40px;
+}
+    h1:first-letter{
+    font-size: 50px;
+    color:brown
+}
+
+h2 {
+    height: 50px;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px
+}
+
+
+.paragrafo {
+    height: 180px;
+    line-height: 160%;
+    font-size: 18px;
+    letter-spacing: 1px;
+   
+}
+
+.agendar { 
+
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-family: 'lora', sans-serif;
+    font-weight:500;
+    font-size: 25px;
+    border-radius: 50px;
+    border: 0px;
+    background: rgb(90, 90, 90);
+    color:white;
+    padding: 15px 40px ;
+    transition: 0.8s ease;
+   
+}
+.agendar:hover{ background:rgb(165, 42, 42);}
+
+
+
+/*rigth*/
+    
+img{
+    height: 400px;
+    width: 500px;
+}
+figcaption{
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 10px;}
+
+
+
+
+
+    /* CAIXAS TEMAS */
+
+.cx2 {
+    
+    padding: 1%;
+    height: 100vh;
+    width: 100vw;
+}
+.wrap,.wrap1,.wrap2  {
+    display: inline-block;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    height: 72%;
+    width: 400px;
+    background: rgb(255, 254, 254);
+    border-radius: 25px; 
+    opacity: 0.8;
+}
+.wrap,.wrap1,.wrap2{
+position: relative;
+left: 1%;
+bottom:90%
+
+}
+.fundofosco{
+    position: relative   ;
+    filter: blur(5px);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStEgZH7IRq4rRhltAu4jCa7_slQjOg_Xz1gw&s');
+    width: 100vw;             /* largura da caixa */
+    height: 100vh;            /* altura da caixa */
+    background-size: cover;   /* faz a imagem cobrir toda a div */
+    background-position: center; /* centraliza a imagem */
+    opacity: 0.8;
+}
+
+/* TEXTOS TEMAS */
+.headline::first-letter{
+    color :brown;
+    font-size: 30px;
+}
+
+.sub{
+    margin-top:40px;
+}
+.texto{
+    width: 220px; 
+}
+
+.ajudar{
+    text-align: center;
+    margin: 2%;
+    font-size: 300%;
+    text-shadow: 10px 10px 20px rgb(142, 36, 36, 0.5); 
+}
+
+/* VIDEO */
+.video{
+    margin-left:300px;
+}
+
+.texvideo{
+    text-align: justify;
+    font-size: 200%;
+}
+
+/* footer- roda pe */
+   
+.footexto{
+    padding: 2%;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    word-spacing: 80px;
+    text-align: center; 
+    line-height: 50px; 
+}
+
+.fundofooter{
+    background: rgb(59, 59, 59)
+}
+
+a{color: white}
+    
