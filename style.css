@@ -131,6 +131,7 @@ figcaption{
     padding: 1%;
     height: 100vh;
     width: 100vw;
+    
 }
 .wrap,.wrap1,.wrap2  {
     display: inline-block;
@@ -142,17 +143,19 @@ figcaption{
     background: rgb(255, 254, 254);
     border-radius: 25px; 
     opacity: 0.8;
+    
 }
 .wrap,.wrap1,.wrap2{
 position: relative;
 left: 1%;
 bottom:90%
 
+
 }
 .fundofosco{
     position: relative   ;
     filter: blur(5px);
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStEgZH7IRq4rRhltAu4jCa7_slQjOg_Xz1gw&s');
+    
     width: 100vw;             /* largura da caixa */
     height: 100vh;            /* altura da caixa */
     background-size: cover;   /* faz a imagem cobrir toda a div */
@@ -164,6 +167,7 @@ bottom:90%
 .headline::first-letter{
     color :brown;
     font-size: 30px;
+   
 }
 
 .sub{
@@ -180,13 +184,29 @@ bottom:90%
     text-shadow: 10px 10px 20px rgb(142, 36, 36, 0.5); 
 }
 
-/* VIDEO */
-.video{
-    margin-left:300px;
+
+/* fundo do VIDEO com imagem  */
+.did {
+   
+    margin: 0;
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #000;
 }
 
-.texvideo{
-    text-align: justify;
+
+.youtube{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.textov{
+    padding-top: 3%;
+    text-align: center;
     font-size: 200%;
 }
 
