@@ -126,42 +126,26 @@ figcaption{
 
     /* CAIXAS TEMAS */
 
-.cx2 {
-    
-    padding: 1%;
-    height: 100vh;
-    width: 100vw;
-    
-}
-.wrap,.wrap1,.wrap2  {
-    display: inline-block;
-    padding: 2%;
-    margin-top: 2%;
-    margin-left: 1%;
-    height: 72%;
-    width: 400px;
-    background: rgb(255, 254, 254);
-    border-radius: 25px; 
-    opacity: 0.8;
-    
-}
-.wrap,.wrap1,.wrap2{
-position: relative;
-left: 1%;
-bottom:90%
-
+.cx2 { 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStEgZH7IRq4rRhltAu4jCa7_slQjOg_Xz1gw&s');
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* para evitar repetição da imagem */
+    border-radius: 10px;
+    height: 90vh;
+   
 
 }
-.fundofosco{
-    position: relative   ;
-    filter: blur(5px);
-    
-    width: 100vw;             /* largura da caixa */
-    height: 100vh;            /* altura da caixa */
-    background-size: cover;   /* faz a imagem cobrir toda a div */
-    background-position: center; /* centraliza a imagem */
-    opacity: 0.8;
+.wrap {
+    background: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
 }
+
 
 /* TEXTOS TEMAS */
 .headline::first-letter{
@@ -169,12 +153,17 @@ bottom:90%
     font-size: 30px;
    
 }
+.headline{
+    margin-top: 8%;
+}
 
 .sub{
-    margin-top:40px;
+    margin-top:60px;
 }
 .texto{
-    width: 220px; 
+    margin-top:20px;
+    width: 300px; 
+    letter-spacing: 1px ;
 }
 
 .ajudar{
@@ -186,7 +175,7 @@ bottom:90%
 
 
 /* fundo do VIDEO com imagem  */
-.did {
+.imagemdefundo {
    
     margin: 0;
     min-height: 100vh;
@@ -214,8 +203,7 @@ bottom:90%
    
 .footexto{
     padding: 2%;
-    font-size: 20px;
-    font-style: italic;
+    font-size: 14px;
     text-align: center;
     word-spacing: 80px;
     text-align: center; 
