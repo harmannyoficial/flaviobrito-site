@@ -10,11 +10,20 @@
 }   
 
 
-
+/*conteiner leth principal*/
 .cx1{ /*menu*/
     height: 100vh;
     width: 100vw;
    
+}
+
+/* container-lefth principal*/
+.container-lefth {
+   
+    margin: 7%;
+    width: 40%;
+    display: inline-block;
+
 }
 
 header{ 
@@ -45,23 +54,6 @@ header{
 a:hover {color: rgb(222, 221, 221)}
 
 
-/* container-lefth*/
-.container-lefth {
-   
-    margin: 7%;
-    width: 40%;
-    display: inline-block;
-
-}
-
-
-/* container-rigth*/
-.container-rigth { /*posição e largura da imagem*/
-    width: 45%;
-    display: inline-block;
-}
-
-/*lefth */
 h1{
     
     height: 140px;
@@ -109,7 +101,11 @@ h2 {
 
 
 
-/*rigth*/
+/* container-rigth*/
+.container-rigth { /*posição e largura da imagem*/
+    width: 45%;
+    display: inline-block;
+}
     
 img{
     height: 400px;
@@ -124,7 +120,7 @@ figcaption{
 
 
 
-    /* CAIXAS TEMAS */
+    /*  2 CAIXAS TEMAS */
 
 .cx2 { 
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStEgZH7IRq4rRhltAu4jCa7_slQjOg_Xz1gw&s');
@@ -136,7 +132,6 @@ figcaption{
     background-repeat: no-repeat; /* para evitar repetição da imagem */
     border-radius: 10px;
     height: 90vh;
-   
 
 }
 .wrap {
@@ -174,6 +169,10 @@ figcaption{
 }
 
 
+/* Sobre mim */
+
+
+
 /* fundo do VIDEO com imagem  */
 .imagemdefundo {
    
@@ -187,7 +186,6 @@ figcaption{
     color: #000;
 }
 
-
 .youtube{
     margin-top: 5%;
     margin-left: 20%;
@@ -198,6 +196,7 @@ figcaption{
     text-align: center;
     font-size: 200%;
 }
+
 
 /* footer- roda pe */
    
